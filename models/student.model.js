@@ -53,4 +53,4 @@ let studentSchema = new mongoose.Schema(
 
 //! creating collection
 
-module.exports=new mongoose.model("student",studentSchema)
+module.exports=new mongoose.model("queryPagination",studentSchema)
